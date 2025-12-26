@@ -1,0 +1,23 @@
+{
+  "code": 200,
+  "success": true,
+  "data": [
+    {
+      "label": "Dashboard",
+      "icon": "faHome",
+      "path": "/"
+    },
+    {
+      "label": "Cadastros",
+      "path": "registration",
+      "icon": "faBox",
+      "subItems": [
+        { "label": "Categoria", "path": "/category" },
+        { "label": "Produtos", "path": "/product" },
+        { "label": "Mesa", "path": "/table" },
+        { "label": "Cargo", "path": "/paper" },
+        { "label": "Usuário", "path": "/user" }
+      ]
+    }
+  ]
+}
