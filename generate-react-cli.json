@@ -1,0 +1,54 @@
+{
+  "usesTypeScript": true,
+  "usesStyledComponents": false,
+  "usesCssModule": false,
+  "cssPreprocessor": "css",
+  "testLibrary": "Testing Library",
+  "component": {
+    "default": {
+      "path": "src/components",
+      "withStyle": true,
+      "withTest": true,
+      "withStory": false,
+      "withLazy": false
+    },
+    "insert": {
+      "path": "src/components",
+      "customDirectory": "ModalTemplateNameInsert",
+      "customTemplates": {
+        "component": "src/templates/ModalTemplateNameInsert/ModalTemplateNameInsert.tsx",
+        "style": "src/templates/ModalTemplateNameInsert/ModalTemplateNameInsert.css",
+        "test": "src/templates/ModalTemplateNameInsert/ModalTemplateNameInsert.test.tsx",
+        "types": "src/templates/ModalTemplateNameInsert/Validate.ts"
+      },
+      "withStyle": true,
+      "withTest": true,
+      "withTypes": true,
+      "withLazy": false
+    },
+    "page": {
+      "path": "src/pages",
+      "customDirectory": "TemplateName",
+      "customTemplates": {
+        "component": "src/templates/PageTemplateName/TemplateName.tsx",
+        "style": "src/templates/PageTemplateName/TemplateName.css"
+      },
+      "withStyle": true,
+      "withTest": false,
+      "withTypes": false,
+      "withLazy": false
+    },
+
+    "filter": {
+      "path": "src/components",
+      "customDirectory": "FilterTemplate",
+      "customTemplates": {
+        "component": "src/templates/FilterTemplate/FilterTemplate.tsx",
+        "style": "src/templates/FilterTemplate/FilterTemplate.css"
+      },
+      "withStyle": true,
+      "withTest": false,
+      "withLazy": false
+    }
+  }
+}
